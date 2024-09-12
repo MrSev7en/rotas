@@ -1,0 +1,10 @@
+{
+  "emmet.showExpandedAbbreviation": "never",
+  "editor.defaultFormatter": "biomejs.biome",
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  }
+}

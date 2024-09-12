@@ -1,0 +1,105 @@
+:root {
+  touch-action: pan-x pan-y;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  font-family: -apple-system, var(--font-family), "Inter", "Segoe UI", Tahoma,
+    Geneva, Verdana, sans-serif, system-ui;
+  box-sizing: border-box;
+  letter-spacing: 0;
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+html {
+  color-scheme: light;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  image-rendering: optimizeQuality;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+a,
+article,
+aside,
+b,
+button,
+details,
+div,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+iframe,
+img,
+input,
+label,
+li,
+main,
+menu,
+nav,
+ol,
+option,
+p,
+pre,
+section,
+select,
+strong,
+summary,
+svg,
+table,
+td,
+template,
+textarea,
+th,
+tr,
+u,
+ul,
+video {
+  display: flex;
+  flex-direction: row;
+}
